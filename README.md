@@ -1,6 +1,5 @@
-# Mini-SPHINCS+ Off-Switch Educational Prototype
+# Mini-SPHINCS+ Off-Switch Prototype
 
-> **Security warning: this project deliberately uses tiny parameters and simplified encodings for learning and RTL architecture experiments. It is not a compliant SPHINCS+ or SLH-DSA implementation and must never be used for real keys, authorization, or production security.**
 
 This repository implements a small end-to-end path from hash chains to an experimental Off-Switch license system:
 
@@ -17,7 +16,7 @@ This repository implements a small end-to-end path from hash chains to an experi
 In WSL:
 
 ```bash
-cd /home/chenhao/toy-sphincs-off-switch
+cd ~/toy-sphincs-off-switch
 python3 -m unittest discover -s tests -v
 python3 examples/demo.py
 ```
