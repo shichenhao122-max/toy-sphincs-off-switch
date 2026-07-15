@@ -124,7 +124,7 @@ The next engineering step is not to enlarge the toy parameters. It is to build a
 ## Primary references
 
 - FIPS 205, SLH-DSA based on SPHINCS+: https://csrc.nist.gov/pubs/fips/205/final
-- SPHINCS+ v3.1 specification: the PDF supplied with this project
+- SPHINCS+ v3.1 specification: https://sphincs.org/data/sphincs+-r3.1-specification.pdf
 - SPHINCS+ reference implementation: https://github.com/sphincs/sphincsplus
 - RFC 8554, HSS/LMS: https://datatracker.ietf.org/doc/html/rfc8554
 - Original Off-Switch repository: https://github.com/JamesPetrie/off-switch
