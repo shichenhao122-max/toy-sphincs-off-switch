@@ -12,21 +12,6 @@ The default comparison is:
 
 ## Install in an isolated WSL environment
 
-The recommended setup does not require sudo or modify conda `base`:
-
-```bash
-cd /home/chenhao/toy-sphincs-off-switch
-bash benchmarks/setup_no_sudo.sh
-```
-
-It creates `.venv`, installs the Python wrapper and build tools, and builds the
-standardized liboqs algorithms with `OQS_USE_OPENSSL=OFF` into
-`.venv/liboqs`. The benchmark automatically discovers that local installation.
-The setup requires GCC, Git, network access, and Python's `venv` module.
-
-If the machine already has a compatible system liboqs and OpenSSL development
-files, the shorter standard installation also works:
-
 ```bash
 python3 -m venv .venv
 .venv/bin/python -m pip install --upgrade pip
