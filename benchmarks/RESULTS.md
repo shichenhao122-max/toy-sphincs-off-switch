@@ -58,7 +58,7 @@ Both profiles passed every functional check:
 ## Reproduce
 
 ```bash
-cd /home/chenhao/toy-sphincs-off-switch
+cd ~/toy-sphincs-off-switch
 bash benchmarks/setup_no_sudo.sh
 .venv/bin/python benchmarks/slh_dsa_benchmark.py \
   --iterations 20 \
